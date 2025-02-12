@@ -4,7 +4,7 @@ This repository contains an R pipeline for differential gene expression analysis
 ## Requirements
 
 - **R version**: 4.4.2 (2024-10-31 ucrt)
-- **RStudio version**: 2024.12.0 Build 467 (Recommended, but any IDE supporting R should work)
+- **RStudio version**: 2024.12.0 Build 467
 - **Required R packages**:
   - `DESeq2` (version 1.46.0)
   - `tximport` (version 1.34.0)
