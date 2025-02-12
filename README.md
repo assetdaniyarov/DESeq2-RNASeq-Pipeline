@@ -20,10 +20,8 @@ The pipeline performs the following steps:
 - Annotate genes using a reference GTF file.
 
 ## Input & Output Files
-Input Files:
 - .quant.sf files – transcript quantification results from Salmon
 - .gtf file – gene annotations for transcript-to-gene mapping
-Output Files:
 - Differential expression results (.csv) – contains log2 fold changes and p-values
 - Annotated results (_annotated.csv) – includes gene names from GTF
 - Filtered mitochondrial genes (_mt.csv)
