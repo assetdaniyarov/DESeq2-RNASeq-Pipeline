@@ -13,7 +13,7 @@ This repository contains an R pipeline for differential gene expression analysis
 
 ## Pipeline Overview
 The pipeline performs the following steps:
-- Import transcript quantification data from `.quant.sf` files (Salmon output).
+- Import transcript quantification data from `.quant.sf` files (Dragen Illumina output).
 - Create a `DESeqDataSet` and filter low-expression genes.
 - Perform differential expression analysis (DEG) using DESeq2.
 - Generate PCA plots to visualize sample clustering.
