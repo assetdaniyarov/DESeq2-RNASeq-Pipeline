@@ -13,21 +13,21 @@ This repository contains an R pipeline for differential gene expression analysis
 
 ## Pipeline Overview
 The pipeline performs the following steps:
-  Import transcript quantification data from .quant.sf files (Salmon output).
-  Create a DESeqDataSet and filter low-expression genes.
-  Perform differential expression analysis (DEG) using DESeq2.
-  Generate PCA plots to visualize sample clustering.
-  Annotate genes using a reference GTF file.
+- Import transcript quantification data from `.quant.sf` files (Salmon output).
+- Create a `DESeqDataSet` and filter low-expression genes.
+- Perform differential expression analysis (DEG) using DESeq2.
+- Generate PCA plots to visualize sample clustering.
+- Annotate genes using a reference GTF file.
 
 ## Input & Output Files
 Input Files:
-1) .quant.sf files – transcript quantification results from Salmon
-2) .gtf file – gene annotations for transcript-to-gene mapping
+- .quant.sf files – transcript quantification results from Salmon
+- .gtf file – gene annotations for transcript-to-gene mapping
 Output Files:
-1) Differential expression results (.csv) – contains log2 fold changes and p-values
-2) Annotated results (_annotated.csv) – includes gene names from GTF
-3) Filtered mitochondrial genes (_mt.csv)
-4) PCA plots for visualization
+- Differential expression results (.csv) – contains log2 fold changes and p-values
+- Annotated results (_annotated.csv) – includes gene names from GTF
+- Filtered mitochondrial genes (_mt.csv)
+- PCA plots for visualization
 
 ## License & Citation
 If you use this pipeline in your research, please cite the appropriate sources.
