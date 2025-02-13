@@ -29,5 +29,5 @@ The pipeline performs the following steps:
 - Filtered mitochondrial genes (_mt.csv)
 - PCA plots for visualization
 
-## License & Citation
+## Citation
 If you use this pipeline in your research, please cite the appropriate sources.
